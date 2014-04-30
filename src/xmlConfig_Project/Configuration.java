@@ -24,14 +24,16 @@ public class Configuration {
 
 			Element root = doc.getRootElement();
 			/* Database properties */
-			driverName = root.getChild("DatabaseConfig1").getChildTextTrim("dbDriverName");
+			driverName = root.getChild("DatabaseConfig1").getChildTextTrim(
+					"dbDriverName");
 			uId = root.getChild("DatabaseConfig1").getChildTextTrim("dbUser");
-			pWd = root.getChild("DatabaseConfig1").getChildTextTrim("dbPassword");
+			pWd = root.getChild("DatabaseConfig1").getChildTextTrim(
+					"dbPassword");
 			uri = root.getChild("DatabaseConfig1").getChildTextTrim("dbURI");
 		} catch (JDOMException eJDom) {
 			System.out.println("Error");
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
+
 			e.printStackTrace();
 		}
 
