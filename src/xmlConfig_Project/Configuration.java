@@ -24,8 +24,7 @@ public class Configuration {
 
 			Element root = doc.getRootElement();
 			/* Database properties */
-			driverName = root.getChild("DatabaseConfig1").getChildTextTrim(
-					"dbDriverName");
+			driverName = root.getChild("DatabaseConfig1").getChildTextTrim("dbDriverName");
 			uId = root.getChild("DatabaseConfig1").getChildTextTrim("dbUser");
 			pWd = root.getChild("DatabaseConfig1").getChildTextTrim("dbPassword");
 			uri = root.getChild("DatabaseConfig1").getChildTextTrim("dbURI");
