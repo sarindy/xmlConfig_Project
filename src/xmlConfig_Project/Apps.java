@@ -20,6 +20,11 @@ public class Apps {
 		setpWd(config.getpWd());
 		setuRl(config.getUri());
 		
+		System.out.println(getDriverName());
+		System.out.println(getuID());
+		System.out.println(getpWd());
+		System.out.println(getuRl());
+		
 		
 		
 		
