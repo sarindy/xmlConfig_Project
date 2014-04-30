@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<BatchConfig>
-	<DatabaseConfig1>
-		<dbDriverName>oracle.jdbc.driver.OracleDriver</dbDriverName>
-		<dbUser>DY</dbUser>
-		<dbPassword>qwe</dbPassword>
-		<dbURI>jdbc:oracle:thin:@localhost:1521:orcl</dbURI>
-	</DatabaseConfig1>
-</BatchConfig>
