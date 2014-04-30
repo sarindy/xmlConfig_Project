@@ -2,5 +2,7 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/Users/sarindy/Documents/GitHub/JavaWorkSpace/xmlConfig_Project/lib/jdom.jar"/>
+	<classpathentry kind="lib" path="/Users/sarindy/Documents/GitHub/JavaWorkSpace/xmlConfig_Project/lib/log4j-1.2.13.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
